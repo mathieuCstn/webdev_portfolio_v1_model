@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./webfonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(./webfonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: DMSerifText;
+    src: url(./webfonts/DMSerifText-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+#header {
+    height: 80px;
+    border: solid red 1px
+}
+
+header div.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header a {
+    height: 100%;
+}
+
+header a img {
+    height: 100%;
+    width: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0 6px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #070707;
+}
+
+main section {
+    height: 100vh;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero div.hero-foreground-text {
+    display: flex;
+}
+
+#hero div.hero-foreground-text div {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#hero div.hero-foreground-text img {
+    width: 100%;
+}
+
+#about {}
+
+#technologies {}
+
+#contact {}
+
+#footer {}
