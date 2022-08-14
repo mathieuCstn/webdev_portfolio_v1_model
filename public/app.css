@@ -15,10 +15,14 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #header {
@@ -63,19 +67,31 @@ main section {
     position: relative;
 }
 
-#hero div {
+#hero div.hero-background-text {
     position: absolute;
     top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
+    background-color: red;
+    z-index: -1;
+}
+
+#hero div.hero-background-text p {
+    font-family: DMSerifText, Georgia, serif;
+    font-size: 400px;
+    line-height: 500px;
 }
 
 #hero div.hero-foreground-text {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
 }
 
 #hero div.hero-foreground-text div {
-    width: 400px;
-    height: 400px;
+    width: 40%;
+    aspect-ratio: 1;
     overflow: hidden;
     border-radius: 50%;
 }
