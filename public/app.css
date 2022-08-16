@@ -28,6 +28,7 @@ html, body {
 
 #header {
     height: 80px;
+    margin: 10px;
 }
 
 header div.container {
@@ -43,6 +44,7 @@ header a {
 header a img {
     height: 100%;
     width: auto;
+    margin: 0 16px;
 }
 
 header nav ul {
@@ -51,7 +53,8 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 6px;
+    margin: 0 16px;
+    font-weight: bold;
 }
 
 header nav ul a {
@@ -60,11 +63,13 @@ header nav ul a {
 }
 
 main section {
-    height: 100vh;
+    height: 110vh;
 }
 
 #hero {
+    border: red solid 1px;
     position: relative;
+    overflow: hidden;
 }
 
 #hero div.hero-background-text {
@@ -73,23 +78,21 @@ main section {
     right: 0;
     bottom: 0;
     left: 0;
-    display: flex;
-    align-items: center;
 }
 
 #hero div.hero-background-text p {
     font-family: DMSerifText, Georgia, serif;
     font-size: 27vw;
-    line-height: 30vw;
+    line-height: 28vw;
     letter-spacing: 2rem;
     color: transparent;
     -webkit-text-stroke: 0.5px #070707;
-    transform: translate(-3%, 10%);
+    transform: translateX(-6%);
 }
 
 #hero div.hero-background-text span:nth-child(2){
     display: inline-block;
-    transform: translateX(80px);
+    transform: translateX(8vw);
 }
 
 #hero div.hero-foreground-text {
@@ -97,19 +100,20 @@ main section {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    transform: translateY(3%);
 }
 
 #hero div.hero-foreground-text h1{
     font-family: JosefinSans, Montserrat, sans-serif;
     font-size: 5.5vw;
     line-height: 8vw;
-    transform: translateY(-20%);
+    transform: translateY(35%);
     margin-right: 4vw;
 }
 
 #hero div.hero-foreground-text div {
-    width: 40%;
+    width: 42%;
     aspect-ratio: 1;
     overflow: hidden;
     border-radius: 50%;
@@ -120,7 +124,12 @@ main section {
     transform: translateY(-20%);
 }
 
-#about {}
+#about {
+    border: blue solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #technologies {}
 
