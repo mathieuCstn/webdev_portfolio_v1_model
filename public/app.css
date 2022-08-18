@@ -177,8 +177,9 @@ main section {
     width: 40vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10% 10%;
+    grid-gap: 10% 10%;
     font-size: 120px;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -242,6 +243,11 @@ main section {
 
 #footer div.container>div a i {
     font-size: 80px;
+}
+
+#footer div.container>div:nth-child(2) a img {
+    width: 90%;
+    margin: 0;
 }
 
 #footer div.container>div:nth-child(2) p {
