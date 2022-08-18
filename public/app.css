@@ -250,7 +250,10 @@ main section {
     margin: 0;
 }
 
-#footer div.container>div:nth-child(2) p {
+#footer div.container>div:nth-child(2) a {
     font-size: 30px;
     font-weight: bold;
+    margin-top: 8%;
+    color: #F2F2F2;
+    text-decoration: none;
 }
