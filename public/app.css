@@ -163,8 +163,9 @@ main section {
 #technologies {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #technologies h2 {
@@ -177,9 +178,9 @@ main section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10% 10%;
-    text-align: center;
-    align-items: center;
     font-size: 120px;
+    align-items: center;
+    text-align: center;
 }
 
 /* #technologies div div.icons{
@@ -192,6 +193,58 @@ main section {
     /* border: red solid 1px; */
 }
 
-#contact {}
+/* #contact {
+    border: red solid 1px;
+} */
 
-#footer {}
+#contact form {
+    display: flex;
+    width: 35vw;
+    margin: 50vh 0 0 60%;
+    flex-direction: column;
+}
+
+#footer {
+    height: 60vh;
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    font-family: JosefinSans, Montserrat, sans-serif;
+}
+
+#footer div.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer div.container>div {
+    text-align: center;
+    height: 40vh;
+}
+
+#footer div.container>div h2 {
+    font-size: 30px;
+    height: 20%;
+}
+
+#footer div.container>div:nth-child(1) div {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer div.container>div a {
+    color: #F2F2F2;
+    margin: 0 5%;
+}
+
+#footer div.container>div a i {
+    font-size: 80px;
+}
+
+#footer div.container>div:nth-child(2) p {
+    font-size: 30px;
+    font-weight: bold;
+}
