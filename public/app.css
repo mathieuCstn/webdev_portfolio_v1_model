@@ -160,6 +160,14 @@ main section {
     align-items: center;
 }
 
+#about>div {
+    width: 60%;
+}
+
+#about>div p {
+    margin-bottom: 16px;
+}
+
 #technologies {
     display: flex;
     flex-direction: column;
@@ -198,11 +206,32 @@ main section {
     border: red solid 1px;
 } */
 
+#contact {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#contact>div {
+    padding: 1.5%;
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+    width: 70%;
+    aspect-ratio: 16 / 9;
+    border: red solid 1px;
+}
+
 #contact form {
     display: flex;
-    width: 35vw;
-    margin: 50vh 0 0 60%;
     flex-direction: column;
+    width: 100%;
+}
+
+#contact form input, #contact form textarea , #contact form button  {
+    flex: 1;
 }
 
 #footer {
