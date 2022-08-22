@@ -214,24 +214,53 @@ main section {
     left: 0;
 }
 
-#contact>div {
+#contact form {
     padding: 1.5%;
     position: absolute;
+    top: 50%;
     right: 5%;
-    bottom: 25%;
     width: 70%;
+    transform: translateY(-50%);
     aspect-ratio: 16 / 9;
-    border: red solid 1px;
+    background-color: #FFF;
+    /* box-shadow: rgba(0, 0, 0, 0.1); */
 }
 
-#contact form {
+#contact form div.corp-form {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    height: 100%;
 }
 
-#contact form input, #contact form textarea , #contact form button  {
+#contact form input {
     flex: 1;
+    margin-bottom: 1.5%;
+    padding-left: 10px;
+    outline: none;
+}
+
+#contact form textarea {
+    height: 65%;
+    margin-bottom: 1.5%;
+    padding: 10px 10px;
+    resize: none;
+    outline: none;
+}
+
+#contact form button {
+    flex: 1.25;
+    font-family: JosefinSans, Montserrat, sans-serif;
+    color: #707070;
+    border: 1px #707070 solid;
+    border-radius: 0;
+}
+
+#contact form input::placeholder, #contact form textarea::placeholder {
+    font-family: JosefinSans, Montserrat, sans-serif;
+    color: #707070;
+    padding: 100px;
 }
 
 #footer {
