@@ -127,6 +127,7 @@ main section {
     letter-spacing: 2rem;
     color: transparent;
     -webkit-text-stroke: 0.5px #070707;
+    text-stroke: 0.5px #070707;
     transform: translateX(-5%);
 }
 
