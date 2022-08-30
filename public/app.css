@@ -117,7 +117,6 @@ main section {
     width: 100%;
     height: 1080px;
     overflow: hidden
-    /*! height: 100%; */
 }
 
 #hero div.hero-background-text p {
@@ -127,7 +126,7 @@ main section {
     letter-spacing: 2rem;
     color: transparent;
     -webkit-text-stroke: 0.5px #070707;
-    text-stroke: 0.5px #070707;
+    /* text-stroke: 0.5px #070707; */
     transform: translateX(-5%);
 }
 
@@ -160,7 +159,7 @@ main section {
 
 #hero div.hero-foreground-text div.hero-img {
     width: 40%;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
 }
